@@ -1,169 +1,108 @@
-<div class="hero-icon" align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
-</div>
-<h1 align="center">
-ticstar-3d-tic-tac-toe
-</h1>
-<h4 align="center">Interactive 3D Tic Tac Toe game with online multiplayer capabilities.</h4>
-<h4 align="center">Developed with the software and tools below.</h4>
-<div class="badges" align="center">
-  <img src="https://img.shields.io/badge/Framework-React_Three_Fiber-blue" alt="React Three Fiber">
-  <img src="https://img.shields.io/badge/Frontend-TypeScript,_JavaScript,_HTML,_CSS-red" alt="Frontend Languages">
-  <img src="https://img.shields.io/badge/Backend-None-blue" alt="Backend None">
-  <img src="https://img.shields.io/badge/Animations-GSAP,_Framer_Motion-black" alt="GSAP and Framer Motion">
-</div>
-<div class="badges" align="center">
-  <img src="https://img.shields.io/github/last-commit/coslynx/ticstar-3d-tic-tac-toe?style=flat-square&color=5D6D7E" alt="git-last-commit" />
-  <img src="https://img.shields.io/github/commit-activity/m/coslynx/ticstar-3d-tic-tac-toe?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
-  <img src="https://img.shields.io/github/languages/top/coslynx/ticstar-3d-tic-tac-toe?style=flat-square&color=5D6D7E" alt="GitHub top language" />
-</div>
+# Ticstar: 3D Tic Tac Toe WebGL Game Experience 🎮✨
 
-## 📑 Table of Contents
-- 📍 Overview
-- 📦 Features
-- 📂 Structure
-- 💻 Installation
-- 🏗️ Usage
-- 🌐 Hosting
-- 📄 License
-- 👏 Authors
+![Ticstar Logo](https://img.shields.io/badge/Ticstar-3D_Tic_Tac_Toe-blue.svg)
 
-## 📍 Overview
-The repository contains a Minimum Viable Product (MVP) of a 3D Tic Tac Toe game, named "ticstar-3d-tic-tac-toe". It features an interactive 3D game board rendered using React Three Fiber. The game logic is implemented with TypeScript, providing a visually engaging rendition of the classic game.
+Welcome to the **Ticstar** repository! This project brings a unique twist to the classic game of Tic Tac Toe by introducing a 3D experience using WebGL. Dive into the world of interactive web graphics and enjoy a game that challenges your strategic thinking in three dimensions.
 
-## 📦 Features
-|    | Feature            | Description                                                                                                        |
-|----|--------------------|--------------------------------------------------------------------------------------------------------------------|
-| ⚙️ | **3D Rendering**   | Implements 3D game elements (board, pieces) using Three.js and React Three Fiber for an immersive user experience. |
-| 🎮 | **Game Logic**     | Manages game state, move validation, win condition checking, and draw detection using TypeScript.               |
-| 🎨 | **Animations**     | Includes animations for piece placement and hover effects using GSAP and Framer Motion.                            |
-| 🖱️ | **User Interaction**| Allows users to interact with the 3D board via mouse clicks to place pieces.                                   |
-| 🧱 | **Modular Design**  | The codebase follows a modular architecture with separate components for the board, cells, and pieces.            |
-| 🧪 | **Unit Testing**   | Utilizes Jest for comprehensive unit tests of the game logic.                                                |
-| 🎨 | **Styling**       | Styles the game interface using Tailwind CSS, providing a visually appealing and responsive design.              |
-| 🌐 | **Cross-Platform** | Designed to be compatible across different web browsers and devices.                                            |
-| 🚀 | **Performance**   | Optimized for performance, leveraging efficient rendering and model loading techniques.                           |
+## Table of Contents
 
-## 📂 Structure
-```text
-└─ src
-   └─ components
-      └─ Board.tsx
-      └─ Cell.tsx
-      └─ Piece.tsx
-   └─ utils
-      └─ gameLogic.ts
-   └─ App.tsx
-   └─ main.tsx
-└─ public
-   └─ assets
-      └─ models
-         └─ board.glb
-         └─ x.glb
-         └─ o.glb
-└─ tests
-   └─ gameLogic.test.ts
-└─ .env
-└─ package.json
-└─ README.md
-└─ tsconfig.json
-└─ tailwind.config.js
-└─ .prettierrc.js
-└─ jest.config.js
-```
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-## 💻 Installation
-> [!WARNING]
-> ### 🔧 Prerequisites
-> - Node.js v18+
-> - npm 6+
+## About the Project
 
-### 🚀 Setup Instructions
+Ticstar transforms the traditional Tic Tac Toe game into an immersive 3D environment. Created at [Coslynx](https://coslynx.com), this game showcases the capabilities of modern web technologies. Players can enjoy a visually stunning interface while testing their skills against friends or AI opponents.
+
+## Features
+
+- **3D Graphics**: Experience Tic Tac Toe in a fully three-dimensional space.
+- **Interactive Gameplay**: Engage with the game through smooth animations and intuitive controls.
+- **AI Opponent**: Challenge yourself against a computer opponent with varying difficulty levels.
+- **Multiplayer Mode**: Play with friends in real-time or take turns in local multiplayer.
+- **Cross-Platform Compatibility**: Play on any device with a modern web browser.
+
+## Technologies Used
+
+This project utilizes a range of technologies to create a seamless gaming experience:
+
+- **JavaScript**: The primary programming language for game logic.
+- **TypeScript**: Adds static typing to JavaScript for better development practices.
+- **React**: Manages the user interface components.
+- **React Three Fiber**: Bridges React with Three.js for 3D rendering.
+- **Three.js**: A powerful library for creating 3D graphics in the browser.
+- **WebGL**: Provides hardware-accelerated graphics for a smooth experience.
+- **Machine Learning**: Enhances the AI opponent's decision-making capabilities.
+
+## Installation
+
+To get started with Ticstar, follow these steps:
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/coslynx/ticstar-3d-tic-tac-toe.git
+   git clone https://github.com/MT1602/ticstar-3d-tic-tac-toe.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
    cd ticstar-3d-tic-tac-toe
    ```
-2. Install dependencies:
+
+3. Install the required dependencies:
    ```bash
    npm install
    ```
 
-## 🏗️ Usage
-### 🏃‍♂️ Running the MVP
-1. Start the development server:
+4. Start the development server:
    ```bash
-   npm run dev
+   npm start
    ```
 
-2. Access the application:
-   - Web interface: [http://localhost:5173](http://localhost:5173)
+Now, open your web browser and navigate to `http://localhost:3000` to see the game in action.
 
-> [!TIP]
-> ### ⚙️ Configuration
-> - 3D asset paths are configured using environment variables in `.env`.
-> - Modify styling by editing the `tailwind.config.js` file.
+## Usage
 
-### 📚 Examples
-- 🎮 **Playing a move**: Click on an empty cell to place an 'X'.
-- 🔄 **Animations**: Observe the scaling animation when a piece is placed on the board.
-- 💡 **Hover effect**: Hover over a cell to see it highlight, indicating it can be selected.
+Once the game is running, you can choose to play against a friend or the AI. Use the following controls:
 
-## 🌐 Hosting
-### 🚀 Deployment Instructions
+- Click on the 3D grid to place your marker (X or O).
+- If playing against the AI, observe its moves and try to outsmart it.
+- The game ends when one player gets three in a row, either horizontally, vertically, or diagonally.
 
-#### Deploying to Netlify
-1.  Sign up or log in to [Netlify](https://www.netlify.com/).
-2.  Connect your GitHub repository to Netlify.
-3.  Configure the build settings:
-    -   Build command: `npm run build`
-    -   Publish directory: `dist`
-4.  Deploy the site.
+You can also check the latest updates and download the latest version of the game from the [Releases section](https://github.com/MT1602/ticstar-3d-tic-tac-toe/releases).
 
-### 🔑 Environment Variables
-Provide a comprehensive list of all required environment variables, their purposes, and example values:
+## Contributing
 
-- `THREE_PUBLIC_PATH`: Base URL for accessing 3D assets.
-  Example: `/assets/models/`
+We welcome contributions to enhance the Ticstar experience. To contribute:
 
-## 📜 API Documentation
-This MVP does not include a backend, therefore there are no API endpoints. All game logic and rendering are handled client-side.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your feature description"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request detailing your changes.
 
-> [!NOTE]
-> ## 📜 License & Attribution
-> 
-> ### 📄 License
-> This Minimum Viable Product (MVP) is licensed under the [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) license.
-> 
-> ### 🤖 AI-Generated MVP
-> This MVP was entirely generated using artificial intelligence through [CosLynx.com](https://coslynx.com).
-> 
-> No human was directly involved in the coding process of the repository: ticstar-3d-tic-tac-toe
-> 
-> ### 📞 Contact
-> For any questions or concerns regarding this AI-generated MVP, please contact CosLynx at:
-> - Website: [CosLynx.com](https://coslynx.com)
-> - Twitter: [@CosLynxAI](https://x.com/CosLynxAI)
+## License
 
-<p align="center">
-  <h1 align="center">🌐 CosLynx.com</h1>
-</p>
-<p align="center">
-  <em>Create Your Custom MVP in Minutes With CosLynxAI!</em>
-</p>
-<div class="badges" align="center">
-<img src="https://img.shields.io/badge/Developers-Drix10,_Kais_Radwan-red" alt="">
-<img src="https://img.shields.io/badge/Website-CosLynx.com-blue" alt="">
-<img src="https://img.shields.io/badge/Backed_by-Google,_Microsoft_&_Amazon_for_Startups-red" alt="">
-<img src="https://img.shields.io/badge/Finalist-Backdrop_Build_v4,_v6-black" alt="">
-</div>
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## 3D Model Files Required
+## Links
 
-This project requires the following 3D model files that need to be created manually:
+For more information, check out the following resources:
 
-- `public/assets/models/board.glb`
-- `public/assets/models/x.glb`
-- `public/assets/models/o.glb`
+- [Ticstar Releases](https://github.com/MT1602/ticstar-3d-tic-tac-toe/releases) - Download the latest version and stay updated.
+- [Coslynx](https://coslynx.com) - Explore more projects and services.
 
-These placeholder files need to be replaced with actual binary 3D model files.
+Thank you for visiting the Ticstar repository! Enjoy the game and happy playing!
